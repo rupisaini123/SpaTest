@@ -5,7 +5,7 @@
       "url": ".nojekyll"
     },
     {
-      "hash": "sha256-Nvz7UVan0HUtLlDSgcjAr7KyfP62h7vtQGJDV48G5aY=",
+      "hash": "sha256-o6aGH/JHgf7CQogLPAg+AfVRjPXM8Gdb667h+z57uQU=",
       "url": "404.html"
     },
     {
