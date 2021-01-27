@@ -11,17 +11,28 @@ jobs:
     steps:    
         # uses GitHub's checkout action to checkout code form the master branch
     - uses: actions/checkout@v2
-      # sets up .NET Core SDK 3.1
+      
+      # sets up .NET Core SDK, no need to mention version. look for .net in Marketplace
     - name: Setup .NET Core SDK
       uses: actions/setup-dotnet@v1.7.2
-         # publishes Blazor project to the release-folder
+      
+      # publishes Blazor project to the release-folder make sure to put the right csproj file name
     - name: Publish .NET Core Project
       run: dotnet publish BlazorApp3.csproj -c Release -o release --nologo
-      # changes the base-tag in index.html from '/' to 'BlazorGitHubPagesDemo' to match GitHub Pages repository subdirectory
-        
+      
+      # changes the base-tag in index.html from '/' to 'repository name' to match GitHub Pages repository subdirector. name is case senstive       
     - name: Change base-tag in index.html from / to spatest
       run: sed -i 's/<base href="\/" \/>/<base href="\/spatest\/" \/>/g' release/wwwroot/index.html
       
+      # add .nojekyll file to tell GitHub pages to not treat this as a Jekyll project. (Allow files and folders starting with an underscore)
+    - name: Add .nojekyll file
+      run: touch release/wwwroot/.nojekyll
+      
+      # copy index.html to 404.html to serve the same file when a file is not found
+    - name: copy index.html to 404.html
+      run: cp release/wwwroot/index.html release/wwwroot/404.html
+      
+      # deploy the published files from release/wwwroot to the gh-pages branch
     - name: Commit wwwroot to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
