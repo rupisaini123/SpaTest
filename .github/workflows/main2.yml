@@ -28,6 +28,10 @@ jobs:
     - name: Add .nojekyll file
       run: touch release/wwwroot/.nojekyll
       
+    # copy index.html to 404.html to serve the same file when a file is not found
+    - name: copy index.html to 404.html
+      run: cp release/wwwroot/index.html release/wwwroot/404.html
+      
       # bash script to updatte the hash to resolve the pwa integrity issue
     - name: Fix service-worker-assets.js hashes
       working-directory: release/wwwroot
@@ -59,10 +63,6 @@ jobs:
         done
 
         echo -n "$jsFile" > service-worker-assets.js
-      
-      # copy index.html to 404.html to serve the same file when a file is not found
-    - name: copy index.html to 404.html
-      run: cp release/wwwroot/index.html release/wwwroot/404.html
       
       # deploy the published files from release/wwwroot to the gh-pages branch
     - name: Commit wwwroot to GitHub Pages
