@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
 <head>
@@ -11,6 +11,7 @@
     <link href="BlazorApp3.styles.css" rel="stylesheet" />
     <link href="manifest.json" rel="manifest" />
     <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
+    <link href="https://vjs.zencdn.net/7.10.2/video-js.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -22,6 +23,9 @@
         <a class="dismiss">🗙</a>
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
+    <script src="https://vjs.zencdn.net/7.10.2/video.js"></script>
+    <script src="js/player.js"></script>
+
     <script>navigator.serviceWorker.register('service-worker.js');</script>
 </body>
 
