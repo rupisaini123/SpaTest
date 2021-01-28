@@ -1,0 +1,13 @@
+﻿.video-js {
+    /* The base font size controls the size of everything, not just text.
+                 All dimensions use em-based sizes so that the scale along with the font size.
+                 Try increasing it to 15px and see what happens. */
+    font-size: 10px;
+    /* The main font color changes the ICON COLORS as well as the text */
+    color: -webkit-linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+}
+
+    .video-js .vjs-volume-level,
+    .video-js .vjs-play-progress {
+        background: -webkit-linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+    }

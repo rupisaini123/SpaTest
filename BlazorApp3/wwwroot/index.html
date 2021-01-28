@@ -11,7 +11,9 @@
     <link href="BlazorApp3.styles.css" rel="stylesheet" />
     <link href="manifest.json" rel="manifest" />
     <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
-    <link href="https://vjs.zencdn.net/7.10.2/video-js.css" rel="stylesheet" />
+    <link href="lib/videoJS/dist/css/video-js.css" rel="stylesheet" />
+    <link href="css/player.css" rel="stylesheet" />
+    <link href="lib/videojs-seek-buttons/videojs-seek-buttons.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -23,9 +25,12 @@
         <a class="dismiss">🗙</a>
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
-    <script src="https://vjs.zencdn.net/7.10.2/video.js"></script>
+    <script src="lib/videoJS/dist/js/video.js"></script>
+    <!-- Video JS Title Bar Script-->
+    <script src="lib/videoJS-Title/videojs-titleoverlay.min.js"></script>
+    <script src="lib/videojs-seek-buttons/videojs-seek-buttons.min.js"></script>
+    <script src="lib/videoJs-Mobile_ui/videojs-mobile-ui.js"></script>
     <script src="js/player.js"></script>
-
     <script>navigator.serviceWorker.register('service-worker.js');</script>
 </body>
 

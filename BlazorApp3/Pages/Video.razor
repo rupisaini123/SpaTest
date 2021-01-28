@@ -3,7 +3,7 @@
 <h3>Video</h3>
 <div class="row align-items-center">
     <div class="col-8">
-        <video id="my-player" controls class="video-js">
+        <video id="my-player" class="video-js vjs-default-skin vjs-big-play-centered">
             <source src="https://filedn.com/lSkeUM81BXqS2pqmqvLC2TX/Tv-Show/AkbarKaBalBirbal/Season1/Akbar%20Ka%20Bal%E2%80%A6%20Birbal%20-%201st%20October%202020%20-%20Episode%2024.mp4" type="video/mp4" />
         </video>
     </div>
@@ -21,8 +21,7 @@
                 controls = true,
                 autoplay = false,
                 preload = "auto",
-                width = 560,
-                height = 264,
+                aspectRatio = "16:9"
             });
         }
     }
