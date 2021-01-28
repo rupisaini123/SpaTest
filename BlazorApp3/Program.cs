@@ -14,7 +14,6 @@ namespace BlazorApp3
     {
         public static async Task Main(string[] args)
         {
-            //test
             var builder = WebAssemblyHostBuilder.CreateDefault(args);
             builder.RootComponents.Add<App>("#app");
 

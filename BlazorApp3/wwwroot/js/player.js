@@ -14,6 +14,4 @@
          back: 10
      });
 
-     player.mobileUi();
-
 }
