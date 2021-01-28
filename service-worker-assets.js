@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-1lS2RGczJuQchAEUadcnkiWBO7NGdhw6N5jGUwSahxw=",
+      "hash": "sha256-YV2ajnJTWgZcJDA/5nrbwqT9ku9rKFf1aP6OZTubN0E=",
       "url": "404.html"
     },
     {
@@ -53,6 +53,10 @@
       "url": "css\/open-iconic\/README.md"
     },
     {
+      "hash": "sha256-2kxcFvwvAzbMopWl8\/zTs+ZioEzMLXG30DGnmdGdqRw=",
+      "url": "css\/player.css"
+    },
+    {
       "hash": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=",
       "url": "favicon.ico"
     },
@@ -61,12 +65,100 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-1lS2RGczJuQchAEUadcnkiWBO7NGdhw6N5jGUwSahxw=",
+      "hash": "sha256-YV2ajnJTWgZcJDA/5nrbwqT9ku9rKFf1aP6OZTubN0E=",
       "url": "index.html"
     },
     {
-      "hash": "sha256-IVXu\/bIVi\/gAAK8XeGk+ruCYvE9yaQmcTfISOisDqSw=",
+      "hash": "sha256-DRyz5ERIJh28vdRwppzsBb8LZcVI\/A+uqOBji+O\/Vuc=",
       "url": "js\/player.js"
+    },
+    {
+      "hash": "sha256-DdqxNTyYgmphcbYRtQHn\/DrrlnHkGhYi0s0PZLaD5Mo=",
+      "url": "lib\/videojs-google-chromecast\/css\/fonts\/chromecast.svg"
+    },
+    {
+      "hash": "sha256-58q+orFpzq68ga7iM4xRG7TCTkXwWTrTElFQFIQakEg=",
+      "url": "lib\/videojs-google-chromecast\/css\/fonts\/chromecast.ttf"
+    },
+    {
+      "hash": "sha256-Uqt+GixLdnglJrsY0mm5Lf1tCqcRZNaMlTeosG47\/mQ=",
+      "url": "lib\/videojs-google-chromecast\/css\/fonts\/chromecast.woff"
+    },
+    {
+      "hash": "sha256-StZSvBOwdfwFUxvFc4HRaMvMHHi4DpeV1OMy12GbYWY=",
+      "url": "lib\/videojs-google-chromecast\/css\/fonts\/chromecast.woff2"
+    },
+    {
+      "hash": "sha256-yLikB7uz3fpfWzICLHPhyNOlQa3a\/SIXYIVJtgfkPgw=",
+      "url": "lib\/videojs-google-chromecast\/css\/plugin.css"
+    },
+    {
+      "hash": "sha256-Pub8vAjA\/h1EeNSfm6KNa2djKG8zIkrb403fdYS4HP0=",
+      "url": "lib\/videojs-google-chromecast\/videojs-chromecast.css"
+    },
+    {
+      "hash": "sha256-23SRMmPcQ45tBYk\/KwuRmogYwzI4FETKc20NSWpqY\/I=",
+      "url": "lib\/videojs-google-chromecast\/videojs-chromecast.min.js"
+    },
+    {
+      "hash": "sha256-x7IXZrKNmzXU+TRSb8Li5cnAWdHXyn9nGYBsZ0kH\/YE=",
+      "url": "lib\/videojs-google-chromecast\/videojs-google-chromecast.js"
+    },
+    {
+      "hash": "sha256-QuDwYaVp\/070ofvpwf5f3LHIPnwQBtiV9BEKaIcKWBU=",
+      "url": "lib\/videojs-google-chromecast\/videojs-google-chromecast.min.js"
+    },
+    {
+      "hash": "sha256-d6Wrz14\/Hs8\/UbBCnDMw7ReDAgK01FnCbv9Vo8RM9HM=",
+      "url": "lib\/videoJS-Landscape-fullscreen\/videojs-landscape-fullscreen.min.js"
+    },
+    {
+      "hash": "sha256-rpa8jmUkGpTuFW6GsSuX0hg+nyVFoTtu6OgOGDqCECQ=",
+      "url": "lib\/videoJs-Mobile_ui\/videojs-mobile-ui.cjs.js"
+    },
+    {
+      "hash": "sha256-ZII4V64qUG\/BB1MaiLVapWOKG7DdBd5NNZ7Ih2s1chY=",
+      "url": "lib\/videoJs-Mobile_ui\/videojs-mobile-ui.es.js"
+    },
+    {
+      "hash": "sha256-9QE7szSISvmOEvzb\/FYcd3jjMFhx7RhZWvweIbuDmho=",
+      "url": "lib\/videoJs-Mobile_ui\/videojs-mobile-ui.js"
+    },
+    {
+      "hash": "sha256-JBnOUKOSSVzHuMpXxM5DIOLBddm2UURHQjJ8MHy4+uc=",
+      "url": "lib\/videoJs-Mobile_ui\/videojs-mobile-ui.min.js"
+    },
+    {
+      "hash": "sha256-w5KcwfWxjmV76oqJXBItnaU1ClEhnrnrAjUljXEO1vc=",
+      "url": "lib\/videojs-seek-buttons\/videojs-seek-buttons.css"
+    },
+    {
+      "hash": "sha256-dAoVK57tUcP\/2eTXIswDMcAdPZA12+L5ipCJ+IvJ3XQ=",
+      "url": "lib\/videojs-seek-buttons\/videojs-seek-buttons.min.js"
+    },
+    {
+      "hash": "sha256-DPA28rESFxdw+PBjAE668Jnxtor9DVqYcprZ5YUkz2U=",
+      "url": "lib\/videoJS-Title\/videojs-titleoverlay.js"
+    },
+    {
+      "hash": "sha256-RENWg4ct+I9aZgwCQGbhGUQcjg1c380Qc72MCV4FWMY=",
+      "url": "lib\/videoJS-Title\/videojs-titleoverlay.min.js"
+    },
+    {
+      "hash": "sha256-Xq2BSyE6l3ZnotgB7WAxPSitkTF4OE+vlFtLmFmmzMw=",
+      "url": "lib\/videoJS\/dist\/css\/video-js.css"
+    },
+    {
+      "hash": "sha256-\/fXfq3QrnWyMYmF0zX6ImdI1DTraNCAq1vPofa2rs2w=",
+      "url": "lib\/videoJS\/dist\/css\/video-js.min.css"
+    },
+    {
+      "hash": "sha256-+84FrJqyoEDIHNpQ8e4TVPZxFXZ0x4nIJZiITtXDdhs=",
+      "url": "lib\/videoJS\/dist\/js\/video.js"
+    },
+    {
+      "hash": "sha256-MCVEzQgWsXEsXzD9DJTpKQJoQzUqRfbURqkp+mF95HI=",
+      "url": "lib\/videoJS\/dist\/js\/video.min.js"
     },
     {
       "hash": "sha256-Rd900W4JM68tHaJfuBbVZyrQFitsqrTYnY24qQxOXtk=",
@@ -177,7 +269,7 @@
       "url": "_framework\/BlazorApp3.Shared.dll"
     },
     {
-      "hash": "sha256-Mxfz7FtpNeLRv6T0oaIHFabzML67BCbD8wUrvb2VisE=",
+      "hash": "sha256-wzHDiZm8GTIznAWW4JgeNG6iPdi2gg6t4qa6bBye+bA=",
       "url": "_framework\/BlazorApp3.dll"
     },
     {
@@ -257,7 +349,7 @@
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
-      "hash": "sha256-7kZV8O28JrY+nsUOfaWqzZ\/29qlOIEXfayDRsBI9WeA=",
+      "hash": "sha256-8NQJeIoR0x3BcB+MZFYyihU8x9MmhbqhRJTB+Q3D5Ps=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -265,5 +357,5 @@
       "url": "_framework\/blazor.webassembly.js"
     }
   ],
-  "version": "QG8Fn+5r"
+  "version": "2vTkKrWT"
 };
